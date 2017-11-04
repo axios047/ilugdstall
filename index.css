@@ -1,0 +1,65 @@
+body{
+  margin:0;
+  height: 100vh;
+  font-family: sans-serif;
+  color: #444;
+  background: #efefef;
+}
+
+
+header{
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  justify-content: center;
+}
+
+.branding{
+  background: url("https://raw.githubusercontent.com/ILUGD/ilug-d_brand_logo/master/img/ilug-d_logo-4.png");
+  height: 100px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lol{
+  text-align: center;
+}
+
+.codes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 0px 100px;
+  height: 350px;
+}
+
+.coder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.2);
+  font-size: 20px;
+}
+
+
+.telegram{
+  color: #497799;
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;*/
+}
+
+.website{
+  color: #000;
+}
+
+.meetup{
+  color: #F64060;
+}
+
+.mailing{
+  color: yellow;
+}
